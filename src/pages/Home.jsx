@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
 
                 <div className="skill__content text-sm">
-                  C • HTML5 & CSS3 • Java • JavaScript • TypeScript
+                  Java • JavaScript • TypeScript
                 </div>
               </div>
 
@@ -112,12 +112,15 @@ export default function Home() {
             <div className="home__about__skills__container__skill2">
               <div className="mb-8">
                 <div className="skill__header mb-2 text-md font-semibold">
-                  Libraries & Frameworks
+                  Development Technologies
                 </div>
 
-                <div className="skill__content text-sm">
-                  ReactJs • ExpressJs • NodeJs • Docker
-                </div>
+                <div className="skill__content text-sm mb-1">ReactJs</div>
+                <div className="skill__content text-sm mb-1">Spring Boot</div>
+                <div className="skill__content text-sm mb-1">Apache Kafka</div>
+                <div className="skill__content text-sm mb-1">Docker</div>
+                <div className="skill__content text-sm mb-1">JUnit</div>
+                <div className="skill__content text-sm mb-1">Mockito</div>
               </div>
 
               {/* databases */}
@@ -127,7 +130,7 @@ export default function Home() {
                 </div>
 
                 <div className="skill__content text-sm">
-                  MongoDB • MySQL • Redis
+                  PostgreSQL • MySQL • Redis
                 </div>
               </div>
 
