@@ -28,7 +28,7 @@ export default function Contact() {
           method="POST"
         >
           <input type="hidden" name="form-name" value="contact" />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mb-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 md:mb-5">
             <div className="mb-5">
               <div className="form__label mb-3 font-semibold">Your Name</div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="mb-5">
+            <div className="mb-5 lg:ml-5">
               <div className="form__label mb-3 font-semibold">Your Email</div>
 
               <div className="form__input">

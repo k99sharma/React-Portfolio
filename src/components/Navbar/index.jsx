@@ -14,10 +14,6 @@ const navbarLinks = [
     path: "/",
   },
   {
-    label: "Blog",
-    path: "/blog",
-  },
-  {
     label: "Contact",
     path: "/contact",
   },
@@ -75,6 +71,16 @@ export default function Navbar() {
           {navbarLinks.map((link) => {
             return <NavbarLinkButton key={link.label} {...link} />;
           })}
+
+          <div className="navbar__navlinks__blog text-sm mx-2 md:mx-5">
+            <a
+              href="https://kalashsharma.hashnode.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+          </div>
 
           <div className="navbar__navlinks__resume text-sm mx-2 md:mx-5">
             <a
