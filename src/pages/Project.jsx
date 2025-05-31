@@ -35,7 +35,7 @@ export default function Project() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 md:w-5/6 lg:w-4/6 md:shadow-lg md:rounded-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:w-5/6 lg:w-4/6 box-shadow1 md:rounded-2xl">
         <div className="project-col-1 flex flex-col items-center justify-center">
           <div className="project__thumbnail mb-8">
             <img
