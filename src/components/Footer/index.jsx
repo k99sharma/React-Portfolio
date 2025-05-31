@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__copyright text-sm font-thin my-5">
-          Handcrafted by me © twentytwentythree
+          Handcrafted by me © twentytwentyfive
         </div>
       </div>
     </div>

@@ -36,10 +36,9 @@ export default function Home() {
 
           <div className="home__about__content__subheader text-lg flex items-center justify-center">
             <div className="font-light md:w-4/5 lg:w-3/5">
-              I’m a self-taught developer. And love to experiment with new
-              technologies. I’m quietly confident, naturally curious, and
-              perpetually working on improving my skills. In my spare time I
-              like building my own products
+              I'm a full-stack developer who loves building clean, intuitive,
+              and efficient digital experiences. Always curious and constantly
+              learning, I enjoy turning ideas into thoughtful, working products
             </div>
           </div>
         </div>
