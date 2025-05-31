@@ -10,7 +10,7 @@ function ProjectCard(_props) {
     <div className="projectCard p-5 flex items-center justify-center">
       <Link to={`/projects/${_props.id}`}>
         <button
-          className="projectCard__modal__button hover:shadow-lg"
+          className="projectCard__modal__button hover:shadow-xl"
           aria-labelledby={`${_props.label} modal button`}
         >
           <img

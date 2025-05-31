@@ -14,6 +14,10 @@ const navbarLinks = [
     path: "/",
   },
   {
+    label: "Projects",
+    path: "/projects/0",
+  },
+  {
     label: "Contact",
     path: "/contact",
   },
@@ -81,7 +85,7 @@ export default function Navbar() {
               Blog
             </a>
           </div>
-
+          {/* 
           <div className="navbar__navlinks__resume text-sm mx-2 md:mx-5">
             <a
               href="https://drive.google.com/file/d/1ff2NvVi8MPCj65j92q5QRjwzVXJHd1Rn/view?usp=sharing"
@@ -90,7 +94,7 @@ export default function Navbar() {
             >
               Resume
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
